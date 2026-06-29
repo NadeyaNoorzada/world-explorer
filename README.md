@@ -18,7 +18,6 @@ A modern and responsive country explorer built with Next.js. Browse countries, s
 ### Search
 ![Search Screenshot](./screenshots/search.png)
 
-> Save your screenshots inside a folder named screenshots in the project root.
 
 ---
 
