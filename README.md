@@ -1,48 +1,89 @@
-# World Explorer
+# 🌍 World Explorer
 
-World Explorer is a Next.js project that allows users to explore countries around the world.
+A modern and responsive country explorer built with Next.js. Browse countries, search by name, filter by region, and view detailed information powered by the REST Countries API.
 
-## Features
+---
 
-- App Router
-- File-based routing
-- Shared layout
-- Dynamic routes
-- Server components
-- Client components
-- Real API data fetching
-- Static rendering and caching
-- Dynamic rendering
-- Search functionality
-- Region filter
-- Sort by population
-- Dark mode
-- Responsive design
+## 📸 Project Preview
 
-## API Used
+### Home Page
+![Home Screenshot](./screenshots/home.png)
 
-[REST Countries API](https://restcountries.com)
+### Countries Page
+![Countries Screenshot](./screenshots/countries.png)
 
-## Pages
+### Country Details
+![Country Details Screenshot](./screenshots/details.png)
 
-- **Home** (`/`) - Welcome page with hero section
-- **Countries** (`/countries`) - Browse all countries with region filter and sort
-- **Country Details** (`/countries/[code]`) - Full details for each country
-- **Search** (`/search`) - Search countries by name
-- **About** (`/about`) - Project information
+### Search
+![Search Screenshot](./screenshots/search.png)
 
-## Run Locally
+> Save your screenshots inside a folder named screenshots in the project root.
 
-```bash
+---
+
+## ✨ Features
+
+- ⚡ Next.js App Router
+- 📂 File-based Routing
+- 🎨 Shared Layout
+- 🔗 Dynamic Routes
+- 🖥️ Server Components
+- 💻 Client Components
+- 🌐 REST Countries API Integration
+- ⚡ Static Rendering & Caching
+- 🔄 Dynamic Rendering
+- 🔍 Search Countries
+- 🌎 Filter by Region
+- 📊 Sort by Population
+- 🌙 Dark Mode
+- 📱 Fully Responsive Design
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js
+- React
+- TypeScript (if used)
+- CSS / Tailwind CSS (replace with your styling method)
+- REST Countries API
+
+---
+
+## 🌐 API
+
+- https://restcountries.com
+
+---
+
+## 📄 Pages
+
+| Route | Description |
+|------|-------------|
+| / | Home Page |
+| /countries | Browse all countries |
+| /countries/[code] | Country Details |
+| /search | Search Countries |
+| /about | About the Project |
+
+---
+
+## 🚀 Getting Started
+
 npm install
 npm run dev
-```
+Open:
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+http://localhost:3000
+---
 
-## Build
+## 📦 Production Build
 
-```bash
 npm run build
 npm start
-```
+---
+
+## 📜 License
+
+This project is created for learning purposes.
